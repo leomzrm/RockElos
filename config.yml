@@ -1,0 +1,72 @@
+#
+#    RockElos Config
+#
+#    If you need support or ask a question:
+#    https://discord.gg/YYxFxnfe8v
+#
+#    Do not change this.
+version: 3.0
+#    Here you can choose whether the command/message will be executed only on the first
+#    Elo reach or every time you reach it.
+only-first-commands: true
+only-first-messages: true
+#    Here you can add a new elo,
+#    define each elo range,
+#    define each elo placeholder,
+#    define elo up/down commands and messages.
+#
+#    for RGB, use "&x&r&r&g&g&b&b" color format.
+#
+#    commands-up and commands-down will be executed on console.
+#    Use {player} for player placeholder.
+elo-ranges:
+  Bronze:
+    min: 0
+    max: 499
+    placeholder: "&6Bronze"
+    commands-up:
+      - "give {player} coal 1"
+    commands-down:
+      - "eco take {player} 100"
+    messages-up:
+      - "&aYou reached Bronze!"
+    messages-down:
+      - "&cYou dropped to Bronze!"
+
+  Silver:
+    min: 500
+    max: 999
+    placeholder: "&7Silver"
+    commands-up:
+      - "give {player} iron_ingot 1"
+    commands-down:
+      - "eco take {player} 100"
+    messages-up:
+      - "&aYou reached Silver!"
+    messages-down:
+      - "&cYou dropped to Silver!"
+  Gold:
+    min: 1000
+    max: 1499
+    placeholder: "&eGold"
+    commands-up:
+      - "give {player} gold_ingot 1"
+    commands-down:
+      - "eco take {player} 100"
+    messages-up:
+      - "&aYou reached Gold!"
+    messages-down:
+      - "&cYou dropped to Gold!"
+
+#  Diamond:
+#    min: 1500
+#    max: 1999
+#    placeholder: "&bDiamond"
+#    commands-up:
+#      - "give {player} diamond 1"
+#    commands-down:
+#      - "eco take {player} 100"
+#    messages-up:
+#      - "&aYou reached Diamond!"
+#    messages-down:
+#      - "&cYou dropped to Diamond!"

@@ -1,0 +1,15 @@
+no-permission: '&cYou do not have permission for this.'
+console-usage: '&cYou must specify a player when using this command from console.'
+your-elo: '&aYour rank is &r{rank} &awith &f{points}&a elo points.'
+player-elo: '&f{player}&a is &r{rank} &awith &f{points}&a elo points.'
+player-not-found: '&cPlayer not found.'
+invalid-amount: '&cThe amount must be positive.'
+usage: '&cCorrect usage: /elo {action} <player> <amount>'
+points-added: '&aAdded &f{amount}&a points to &f{player}.'
+points-removed: '&aRemoved &f{amount}&a points from &f{player}.'
+points-set: '&aSet &f{amount}&a points to &f{player}.'
+no-next-rank: "&cYou are in the highest elo."
+no-previous-rank: "&cYou are in the lowest elo."
+unranked: "&cUnranked"
+separator: ","
+config-reloaded: '&aPlugin reloaded.'
