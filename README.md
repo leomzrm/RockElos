@@ -1,3 +1,6 @@
+
+<img width="300" height="133" alt="rockeloslogo" src="https://github.com/user-attachments/assets/40820e07-8980-4f47-9487-6a93d4f06c82" />
+
 # RockElos
 Elo-System with Points and Ranking.
 
