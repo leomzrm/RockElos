@@ -32,6 +32,8 @@ Here are some usage examples:
 ## Dependencies
 - PlaceholderAPI.
 
+Stay tuned, more features shortly!
+
 ## Useful
 - Documentation | https://rockcentral.gitbook.io/rockdev
 - Discord | https://discord.gg/YYxFxnfe8v
